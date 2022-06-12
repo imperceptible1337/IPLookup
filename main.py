@@ -5,7 +5,6 @@ import colorama
 import requests
 import argparse
 import json
-import os
 
 # initialize colorama
 colorama.init()
