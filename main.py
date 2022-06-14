@@ -27,4 +27,4 @@ data = json.loads(url.text)
 print('Query :', ip)
 
 for key, value in data.items():
-    print(key, ':', value)
+    print(key.capitalize(), ':', value)
