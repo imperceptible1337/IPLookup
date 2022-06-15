@@ -22,7 +22,7 @@ else:
 
 # get the information for the IP
 url = get(f'http://ip-api.com/json/{ip}?fields=continent,continentCode,country,countryCode,region,regionName,city,zip,timezone,currency,isp,org,as,asname,mobile,proxy,hosting')
-data = json.loads(url.text)
+data = url.json()
 
 print('Query :', ip)
 
